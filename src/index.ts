@@ -1,5 +1,6 @@
 //Sistema que devuelve cantidad de cada caractér ingresado en un prompt
 //y no admite caracteres con acentos.
+//Calcula probabilidad de aparicion de cada letra
 
 //Variables globales
 let textoIngresado:string = String(prompt("Ingrese un texto"));
@@ -24,7 +25,7 @@ function analizarCaracteres(textoIngresado) {
 let indiceA = [],indiceB = [],indiceC = [],indiceD = [],indiceE = [],indiceF = [],
 indiceG = [],indiceH = [],indiceI = [],indiceJ = [],indiceK = [],indiceL = [],indiceM = [],
 indiceN = [],indiceO = [],indiceP = [],indiceQ = [],indiceR = [],indiceS = [],indiceT = [],
-indiceU = [],indiceV = [],indiceW = [],indiceX = [],indiceY = [],indiceZ = [],;
+indiceU = [],indiceV = [],indiceW = [],indiceX = [],indiceY = [],indiceZ = [];
 for (let i = 0; i < textoIngresado.length; i++) {
   if (textoIngresado[i].toLowerCase() === "a") indiceA.push(i);
   if (textoIngresado[i].toLowerCase() === "b") indiceB.push(i);
