@@ -6,6 +6,10 @@
 let textoIngresado:string = String(prompt("Ingrese un texto"));
 let letras = "ñáéíóú´";
 let calculoProbabilidad:string;
+let indiceA = [],indiceB = [],indiceC = [],indiceD = [],indiceE = [],indiceF = [],
+indiceG = [],indiceH = [],indiceI = [],indiceJ = [],indiceK = [],indiceL = [],indiceM = [],
+indiceN = [],indiceO = [],indiceP = [],indiceQ = [],indiceR = [],indiceS = [],indiceT = [],
+indiceU = [],indiceV = [],indiceW = [],indiceX = [],indiceY = [],indiceZ = [];
 
 //Funcion que pasa texto a minuscula y verifica caracteres no validos.
 function analizarCaracteres(textoIngresado) {
@@ -22,10 +26,6 @@ function analizarCaracteres(textoIngresado) {
 }
 
 //Bucles que cuentan caracteres en el string ingresado.
-let indiceA = [],indiceB = [],indiceC = [],indiceD = [],indiceE = [],indiceF = [],
-indiceG = [],indiceH = [],indiceI = [],indiceJ = [],indiceK = [],indiceL = [],indiceM = [],
-indiceN = [],indiceO = [],indiceP = [],indiceQ = [],indiceR = [],indiceS = [],indiceT = [],
-indiceU = [],indiceV = [],indiceW = [],indiceX = [],indiceY = [],indiceZ = [];
 for (let i = 0; i < textoIngresado.length; i++) {
   if (textoIngresado[i].toLowerCase() === "a") indiceA.push(i);
   if (textoIngresado[i].toLowerCase() === "b") indiceB.push(i);
