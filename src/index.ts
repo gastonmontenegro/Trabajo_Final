@@ -10,6 +10,9 @@ let indiceA = [],indiceB = [],indiceC = [],indiceD = [],indiceE = [],indiceF = [
 indiceG = [],indiceH = [],indiceI = [],indiceJ = [],indiceK = [],indiceL = [],indiceM = [],
 indiceN = [],indiceO = [],indiceP = [],indiceQ = [],indiceR = [],indiceS = [],indiceT = [],
 indiceU = [],indiceV = [],indiceW = [],indiceX = [],indiceY = [],indiceZ = [];
+let calculoA,calculoB,calculoC,calculoD,calculoE,calculoF,calculoG,calculoH,calculoI,calculoJ,
+calculoK,calculoL,calculoM,calculoN,calculoO,calculoP,calculoQ,calculoR,calculoS,calculoT,
+calculoU,calculoV,calculoW,calculoX,calculoY,calculoZ;
 
 //Funcion que pasa texto a minuscula y verifica caracteres no validos.
 function analizarCaracteres(textoIngresado) {
@@ -88,9 +91,6 @@ console.log(`Letra Z aparece ${indiceZ.length} veces`);
 
 //Calcula probabilidad de aparicion de cada letra.
 if (textoIngresado.length => 0) {
-  let calculoA,calculoB,calculoC,calculoD,calculoE,calculoF,calculoG,calculoH,calculoI,calculoJ,
-  calculoK,calculoL,calculoM,calculoN,calculoO,calculoP,calculoQ,calculoR,calculoS,calculoT,
-  calculoU,calculoV,calculoW,calculoX,calculoY,calculoZ;
   calculoA = textoIngresado.length * indiceA.length / 100;
   calculoB = textoIngresado.length * indiceB.length / 100;
   calculoC = textoIngresado.length * indiceC.length / 100;
